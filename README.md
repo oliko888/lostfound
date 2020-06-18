@@ -1,6 +1,6 @@
 #Veebilehekülg: Tallinna ülikooli “Lost & Found”
 
-##Ekraanipildid veebilehest
+##Ekraanipildid tava ja mobiilses vaates veebilehest
 
 
 ![Screenshot (275).png](https://github.com/oliko888/lostfound/blob/master/Screenshot%20(275).png)
@@ -25,15 +25,23 @@ Projekti eesmärgiks oli luua “Lost & Found” veebilehekülg Tallinna Ülikoo
 Töö on tehtud Tallinna Ülikooli Digitehnoloogiate instituudi informaatika eriala suvepraktika raames .
 
 ##Tehnoloogiad
+
 Laravel 7.2.1 raamistik
+
 MySQL
+
 Apache HTTP server
+
 PHP
 
 ##Meeskond  
+
 Oliver Kobing
+
 Nina Katarina Weiss
+
 Liisi Liivik
+
 Maris Jool
 
 ##Installeerimisjuhend
@@ -61,9 +69,12 @@ Selleks, et andmebaasi migreerida  on vaja terminalis kirjutada:  php artisan mi
  
 
 ##Litsents
+
 Varsti tulemas
 
 ##Lingid veebilehtedele
+
 -->[VEEBILEHEKÜLG](https://epo.ee/lostfound/)<--
+
 -->[BLOGI](http://suvepraktika.cs.tlu.ee/2020/ryhm07/)<--  
 
