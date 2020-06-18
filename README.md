@@ -1,6 +1,6 @@
-#Veebilehekülg: Tallinna ülikooli “Lost & Found”
+# Veebilehekülg: Tallinna ülikooli “Lost & Found”
 
-##Ekraanipildid tava ja mobiilses vaates veebilehest
+## Ekraanipildid tava ja mobiilses vaates veebilehest
 
 
 ![Screenshot (275).png](https://github.com/oliko888/lostfound/blob/master/Screenshot%20(275).png)
@@ -18,13 +18,13 @@
 ![Screenshot (291).png](https://github.com/oliko888/lostfound/blob/master/Screenshot%20(291).png)
 
 
-##Eesmärk ja lühikirjeldus
+## Eesmärk ja lühikirjeldus
 
 Projekti eesmärgiks oli luua “Lost & Found” veebilehekülg Tallinna Ülikooli jaoks, et aidata kiirelt ja mugavalt tagastada inimestele asjad, mis nad on ära kaotanud Tallinna Ülikooli territooriumil.
 
 Töö on tehtud Tallinna Ülikooli Digitehnoloogiate instituudi informaatika eriala suvepraktika raames .
 
-##Tehnoloogiad
+## Tehnoloogiad
 
 Laravel 7.2.1 raamistik
 
@@ -34,7 +34,7 @@ Apache HTTP server
 
 PHP
 
-##Meeskond  
+## Meeskond  
 
 Oliver Kobing
 
@@ -44,7 +44,7 @@ Liisi Liivik
 
 Maris Jool
 
-##Installeerimisjuhend
+## Installeerimisjuhend
 1. GitHubi repositooriumi lokaalne kloonimine 
 Looge arvuti kõvakettale kaust, kuhu soovite projekti salvestada. Terminaalis on vaja allolevat käsk sisestada, mis  tõmbab projekti GitHubist alla ja loob koopia sellest lokaalse arvuti peale kausta nimega projectName. Soovil korral on võimalik nime muuta, kui koodilõigust,mis asub peale kaldkriipsu, viimast osa muuta.
 git clone linktogithubrepo.com/ projectName
@@ -68,11 +68,11 @@ Varem loodud  .env failis on nüüd vaja DB_HOST, DB_PORT, DB_DATABASE, DB_USERN
 Selleks, et andmebaasi migreerida  on vaja terminalis kirjutada:  php artisan migrate
  
 
-##Litsents
+## Litsents
 
 Varsti tulemas
 
-##Lingid veebilehtedele
+## Lingid veebilehtedele
 
 -->[VEEBILEHEKÜLG](https://epo.ee/lostfound/)<--
 
