@@ -45,36 +45,26 @@ Liisi Liivik
 Maris Jool
 
 ## Installeerimisjuhend
-1. GitHubi repositooriumi lokaalne kloonimine
-
-Looge arvuti kõvakettale kaust, kuhu soovite projekti salvestada. Terminaalis on vaja allolevat käsk sisestada, mis  tõmbab projekti GitHubist alla ja loob koopia sellest lokaalse arvuti peale kausta nimega projectName. Soovil korral on võimalik nime muuta, kui koodilõigust,mis asub peale kaldkriipsu, viimast osa muuta.
+1. GitHubi repositooriumi lokaalne kloonimine - Looge arvuti kõvakettale kaust, kuhu soovite projekti salvestada. Terminaalis on vaja allolevat käsk sisestada, mis  tõmbab projekti GitHubist alla ja loob koopia sellest lokaalse arvuti peale kausta nimega projectName. Soovil korral on võimalik nime muuta, kui koodilõigust,mis asub peale kaldkriipsu, viimast osa muuta.
 git clone linktogithubrepo.com/ projectName
 Repositooriumilinki saab GitHubi lehel paremal olevat “clone or download” nuppu vajutades. Avaldatud URL tuleb asendada siin etteantud koodilõigust linktogithubrepo.com’iga.
-2. cd projekti sisse
 
-Et järgmised sammud juhendis töötaksid, on vaja just loodud projektifaili siseneda. Selleks on vaja terminalis trükkida cd projectName, või mistahes antud nimi.
-3.  Composer Dependencies installeerimine
+2. cd projekti sisse - Et järgmised sammud juhendis töötaksid, on vaja just loodud projektifaili siseneda. Selleks on vaja terminalis trükkida cd projectName, või mistahes antud nimi.
 
-Järgmise sammuna on vaja composer’it installeerida. Selleks tuleb terminaali kirjutada :  composer install
-4. NPM Dependencies installeerimine
+3.  Composer Dependencies installeerimine - Järgmise sammuna on vaja composer’it installeerida. Selleks tuleb terminaali kirjutada :  composer install
 
-Samamoodi kui eelnevas sammus kirjeldatud composer’i installeerimine, on ka vaja NPD’sid installeerida.Selleks tuleb terminaale kirjutada: npm install
-5. .env failist koopia tegemine
+4. NPM Dependencies installeerimine - Samamoodi kui eelnevas sammus kirjeldatud composer’i installeerimine, on ka vaja NPD’sid installeerida.Selleks tuleb terminaale kirjutada: npm install
 
-Andmebaasi konfigureerimise jaoks on vaja  .env.example template’is koopiat teha, et uue  .env faili luua. Selleks tulebe terminaalis kirjutada :   cp .env.example .env
-6. App encryption key genereerimine
+5. .env failist koopia tegemine - Andmebaasi konfigureerimise jaoks on vaja  .env.example template’is koopiat teha, et uue  .env faili luua. Selleks tulebe terminaalis kirjutada :   cp .env.example .env
 
-Selleks et app saaks elemendid nagu cookies’id või parooli hash’it kodeerida vajab ta ühte encryption key’t. Selle loomiseks tuleb terminaalis kirjutada:  php artisan key:generate
+6. App encryption key genereerimine - Selleks et app saaks elemendid nagu cookies’id või parooli hash’it kodeerida vajab ta ühte encryption key’t. Selle loomiseks tuleb terminaalis kirjutada:  php artisan key:generate
 Kui nüüd  .env faili vaadata, siis tekkis sinna üks pikk String  APP_KEY field’sis.
-7. Tühja andmebaasi loomine
 
-Nüüd on vaja uue andmebaasi luua eelistatud andmebaasi tools’idega. Nimeks saab talle näiteks “test” panna.
-8. Andmebaasi informatsioone .env failile kirjutamine,et andmebaasi ühendada
+7. Tühja andmebaasi loomine - Nüüd on vaja uue andmebaasi luua eelistatud andmebaasi tools’idega. Nimeks saab talle näiteks “test” panna.
 
-Varem loodud  .env failis on nüüd vaja DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, ja  DB_PASSWORD vastavalt andmebaaside väärtuste täita.
-9. Andmebaasi migreerimine
+8. Andmebaasi informatsioone .env failile kirjutamine,et andmebaasi ühendada - Varem loodud  .env failis on nüüd vaja DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, ja  DB_PASSWORD vastavalt andmebaaside väärtuste täita.
 
-Selleks, et andmebaasi migreerida  on vaja terminalis kirjutada:  php artisan migrate
+9. Andmebaasi migreerimine - Selleks, et andmebaasi migreerida  on vaja terminalis kirjutada:  php artisan migrate
  
 
 ## Litsents
