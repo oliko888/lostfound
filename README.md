@@ -69,11 +69,6 @@ Kui nüüd  .env faili vaadata, siis tekkis sinna üks pikk String  APP_KEY fiel
 
 ## Litsents
 
--->[Litsents](https://github.com/oliko888/lostfound/blob/master/MIT%20litsents%20(MIT%20license))<--
-
-## Lingid veebilehtedele
-
--->[VEEBILEHEKÜLG](https://epo.ee/lostfound/)<--
-
--->[BLOGI](http://suvepraktika.cs.tlu.ee/2020/ryhm07/)<--  
+MIT litsents
+ 
 
